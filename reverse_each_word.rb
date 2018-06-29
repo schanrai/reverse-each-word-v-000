@@ -17,6 +17,9 @@ def reverse_each_word(string)
  reversed.join(" ")
 end
 
-
-
+=begin
+def reverse_each_word(sentence)
+  sentence.split.collect {|word| word.reverse}.join(" ")
+end
+=end
 
